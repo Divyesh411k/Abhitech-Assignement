@@ -1,0 +1,173 @@
+/* CarbonEmissions.css */
+
+.carbon-container {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.carbon-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: nowrap;      
+  overflow-x: auto;          
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.info-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 280px;           
+  flex-shrink: 0;             
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.info-card img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 1rem;
+}
+
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.kpi-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.kpi-card {
+  background: #e8f5e9;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  min-width: 200px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.kpi-value {
+  font-size: 1.5rem;
+  color: #1b5e20;
+  font-weight: bold;
+}
+
+.dropdown-wrapper {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.chart-section {
+  margin: 2rem 0;
+}
+
+.chart-title {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.25rem;
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.horizontal-scroll {
+  overflow-x: auto;
+  padding-bottom: 1rem;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+  color: #555;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.ccus-form {
+  background: #f7f9fa;
+  max-width: 500px;
+  padding: 2rem;
+  margin: 3rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  animation: fadeInUp 0.6s ease;
+}
+
+.ccus-form h2 {
+  margin-bottom: 1rem;
+  color: #004d40;
+}
+
+.ccus-form p {
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.form-group textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.ccus-form button {
+  width: 100%;
+  padding: 0.8rem;
+  background: #00796b;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.ccus-form button:hover {
+  background: #004d40;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
